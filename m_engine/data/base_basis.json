@@ -1,0 +1,62 @@
+[
+  {
+    "id": "basis_causality",
+    "name": "因果关系",
+    "description": "事件A导致事件B发生的因果链条",
+    "embedding": [0.0, 0.0, 0.0, 0.0]
+  },
+  {
+    "id": "basis_temporal",
+    "name": "时间顺序",
+    "description": "事件发生的前后顺序、持续时长和节奏",
+    "embedding": [0.0, 0.0, 0.0, 0.0]
+  },
+  {
+    "id": "basis_emotion",
+    "name": "情感色调",
+    "description": "事件或叙述中的情感色彩，如喜悦、悲伤、愤怒、恐惧",
+    "embedding": [0.0, 0.0, 0.0, 0.0]
+  },
+  {
+    "id": "basis_motivation",
+    "name": "角色动机",
+    "description": "角色行动背后的驱动力、目标和欲望",
+    "embedding": [0.0, 0.0, 0.0, 0.0]
+  },
+  {
+    "id": "basis_spatial",
+    "name": "空间关系",
+    "description": "物体、人物在空间中的位置、距离和相对关系",
+    "embedding": [0.0, 0.0, 0.0, 0.0]
+  },
+  {
+    "id": "basis_logic",
+    "name": "逻辑一致性",
+    "description": "叙述内部是否自洽，有无矛盾之处",
+    "embedding": [0.0, 0.0, 0.0, 0.0]
+  },
+  {
+    "id": "basis_intent",
+    "name": "意图推测",
+    "description": "对角色或叙述者未明说的意图进行推断",
+    "embedding": [0.0, 0.0, 0.0, 0.0]
+  },
+  {
+    "id": "basis_social",
+    "name": "社会关系",
+    "description": "角色之间的社会纽带、权力结构和群体归属",
+    "embedding": [0.0, 0.0, 0.0, 0.0]
+  },
+  {
+    "id": "basis_contrast",
+    "name": "对比差异",
+    "description": "事件、角色或状态之间的对比、反差和变化幅度",
+    "embedding": [0.0, 0.0, 0.0, 0.0]
+  },
+  {
+    "id": "basis_moral",
+    "name": "道德判断",
+    "description": "对行为、后果的道德评价，善恶、正义与不义",
+    "embedding": [0.0, 0.0, 0.0, 0.0]
+  }
+]

@@ -1,0 +1,99 @@
+[
+  {
+    "id": "q_why",
+    "template": "为什么{entity}会{action}？",
+    "filter_weights": {
+      "basis_causality": 1.5,
+      "basis_motivation": 1.2,
+      "basis_logic": 0.8
+    }
+  },
+  {
+    "id": "q_how_feel",
+    "template": "{entity}在{event}时是什么感受？",
+    "filter_weights": {
+      "basis_emotion": 2.0,
+      "basis_motivation": 0.8,
+      "basis_intent": 0.6
+    }
+  },
+  {
+    "id": "q_what_next",
+    "template": "接下来会发生什么？",
+    "filter_weights": {
+      "basis_causality": 1.2,
+      "basis_temporal": 1.5,
+      "basis_motivation": 1.0,
+      "basis_intent": 0.8
+    }
+  },
+  {
+    "id": "q_moral",
+    "template": "{entity}的做法对吗？",
+    "filter_weights": {
+      "basis_moral": 2.0,
+      "basis_social": 1.0,
+      "basis_intent": 1.2,
+      "basis_logic": 0.5
+    }
+  },
+  {
+    "id": "q_relationship",
+    "template": "{entity_a}和{entity_b}之间是什么关系？",
+    "filter_weights": {
+      "basis_social": 2.0,
+      "basis_emotion": 1.0,
+      "basis_motivation": 0.5
+    }
+  },
+  {
+    "id": "q_compare",
+    "template": "{entity_a}和{entity_b}有什么不同？",
+    "filter_weights": {
+      "basis_contrast": 2.0,
+      "basis_spatial": 0.5,
+      "basis_social": 0.5
+    }
+  },
+  {
+    "id": "q_where",
+    "template": "{event}发生在哪里？",
+    "filter_weights": {
+      "basis_spatial": 2.0,
+      "basis_temporal": 0.3
+    }
+  },
+  {
+    "id": "q_when",
+    "template": "{event}是什么时候发生的？",
+    "filter_weights": {
+      "basis_temporal": 2.0,
+      "basis_causality": 0.3
+    }
+  },
+  {
+    "id": "q_intent",
+    "template": "{entity}到底想做什么？",
+    "filter_weights": {
+      "basis_intent": 2.0,
+      "basis_motivation": 1.5,
+      "basis_logic": 0.5
+    }
+  },
+  {
+    "id": "q_general",
+    "template": "{query}",
+    "filter_weights": {
+      "basis_causality": 0.5,
+      "basis_temporal": 0.5,
+      "basis_emotion": 0.5,
+      "basis_motivation": 0.5,
+      "basis_spatial": 0.5,
+      "basis_logic": 0.5,
+      "basis_intent": 0.5,
+      "basis_social": 0.5,
+      "basis_contrast": 0.5,
+      "basis_moral": 0.5
+    }
+  }
+]
