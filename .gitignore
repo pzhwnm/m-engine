@@ -14,3 +14,4 @@ pythonProject/
 paper/experiments/data/
 paper/*.pdf
 !paper/paper_elsevier.pdf
+.idea/
