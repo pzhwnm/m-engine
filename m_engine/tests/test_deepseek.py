@@ -9,7 +9,7 @@ sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspa
 import numpy as np
 from m_engine.orchestrator import MEngineOrchestrator
 
-DS_KEY = "sk-3a2dfa56b54f46cbaaa4c226377a9df7"
+DS_KEY = os.environ.get("DEEPSEEK_API_KEY", "")
 DS_URL = "https://api.deepseek.com/v1"
 
 tmpdir = tempfile.mkdtemp()
